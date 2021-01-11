@@ -41,5 +41,8 @@ module.exports = {
       file:path.join(__dirname,'dist','index.html'),
       template:'./index.html'
     })
-  ]
+  ],
+  node: {
+    fs: "empty"
+  }
 }
